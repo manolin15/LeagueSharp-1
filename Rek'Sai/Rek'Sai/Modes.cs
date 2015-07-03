@@ -14,11 +14,11 @@ namespace Rek_Sai
 {
     public static class Modes
     {
-        public static GameItem Tiamat = ItemData.Tiamat_Melee_Only.GetItem();
-        public static GameItem Hydra = ItemData.Ravenous_Hydra_Melee_Only.GetItem();
-        public static GameItem Cutlass = ItemData.Bilgewater_Cutlass.GetItem();
-        public static GameItem BotRK = ItemData.Blade_of_the_Ruined_King.GetItem();
-        public static GameItem Omen = ItemData.Randuins_Omen.GetItem();
+        public static GameItem Tiamat = LeagueSharp.Common.Data.ItemData.Tiamat_Melee_Only.GetItem();
+        public static GameItem Hydra = LeagueSharp.Common.Data.ItemData.Ravenous_Hydra_Melee_Only.GetItem();
+        public static GameItem Cutlass = LeagueSharp.Common.Data.ItemData.Bilgewater_Cutlass.GetItem();
+        public static GameItem BotRK = LeagueSharp.Common.Data.ItemData.Blade_of_the_Ruined_King.GetItem();
+        public static GameItem Omen = LeagueSharp.Common.Data.ItemData.Randuins_Omen.GetItem();
         public static Menu menu = AssemblyMenu.Menu;
         public static Obj_AI_Hero Player = ObjectManager.Player;
 
